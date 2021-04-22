@@ -1,6 +1,11 @@
 -var titulo = "Titulo Principal"
 -var titulos = ["Titulo 1", "Titulo 2", "Titulo 3", "Titulo 4"]
--var usuario = "David"
+mixin caja(imagen,titulo,contenido)
+  .caja
+    .caja__imagen: img(src="./images/"+imagen)
+    .caja__contenido
+      h3=titulo
+      p=contenido
 
 doctype html
 html(lang="es")
@@ -13,10 +18,7 @@ html(lang="es")
   body
     header
       h1 PlatziGames
-      if usuario
-        a hola #{usuario}
-      else
-        a.boton Registro
+      a.boton Registro
     section.intro
       .intro__imagen: img(src="./images/imagen.png", alt="Imagen XD")
       .intro__contenido
@@ -25,6 +27,7 @@ html(lang="es")
           | Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo tenetur quaerat architecto magni totam, doloribus placeat dignissimos laudantium ipsa hic in ratione fuga omnis, reprehenderit eius atque dolore asperiores possimus.
           span Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque inventore tenetur ab vel.
         a.boton Leer Mas
-    ul
-      each titulo in titulos
-        li= titulo
+    main.contenido
+      +caja("imagen.png",titulos[1],"Lorem ipsum dolor dir")
+      +caja("imagen.png",titulos[2],"Lorem ipsum dolor dir")
+      +caja("imagen.png",titulos[3],"Lorem ipsum dolor dir")
