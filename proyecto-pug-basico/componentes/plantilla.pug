@@ -1,0 +1,20 @@
+-var titulo = "Titulo Principal"
+-var titulos = ["Titulo 1", "Titulo 2", "Titulo 3", "Titulo 4"]
+mixin caja(imagen,titulo,contenido)
+  .caja
+    .caja__imagen: img(src="./images/"+imagen)
+    .caja__contenido
+      h3=titulo
+      p=contenido
+
+
+
+doctype html
+html(lang="es")
+  include ./head.pug
+    title Landing de proyecto pug
+  body
+    header
+      h1 PlatziGames
+      a.boton Registro
+    block contenidos
