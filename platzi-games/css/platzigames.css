@@ -1,3 +1,4 @@
+/* globales */
 * {
   box-sizing: border-box;
 }
@@ -16,6 +17,7 @@ h3 {
   margin: 0;
   font-size: 1.8rem;
 }
+/* Intros*/
 .intro {
   width: 134rem;
   height: 65rem;
@@ -69,4 +71,14 @@ h3 {
 }
 .intro .intro__autor span {
   display: block;
+}
+/* articulos */
+.articulo--principal {
+  width: 66rem;
+  margin: 0 auto;
+}
+.articulo--principal h2 {
+  margin: 4rem 0;
+  font-size: 5rem;
+  text-align: center;
 }
