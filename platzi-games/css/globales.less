@@ -1,5 +1,12 @@
 /* globales */
 
+@color-claro: #fff;
+@color-primario: #333;
+@color-secundario: #8841da;
+@color-variacion: #012179;
+@Fuente1: "Lato", sans-serif;
+@Fuente2: "Oswald", sans-serif;
+
 * {
   box-sizing: border-box;
 }
@@ -10,13 +17,14 @@ html {
 
 body {
   margin: 0;
-  font-family: "Lato", sans-serif;
+  font-family: @Fuente1;
+  color: @color-primario;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Oswald", sans-serif;
+  font-family: @Fuente2;
   text-transform: uppercase;
   margin: 0;
   font-size: 1.8rem;
