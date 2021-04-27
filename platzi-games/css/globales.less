@@ -17,6 +17,11 @@
   font-weight: 700;
 }
 
+.fuente(@font-size) {
+  font-size: @font-size;
+  line-height: @font-size / 100 * 110;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -29,8 +34,7 @@ body {
   margin: 0;
   font-family: @Fuente1;
   color: @color-primario;
-  font-size: @fuente-base;
-  line-height: @fuente-base + (@fuente-base / 10);
+  .fuente(@fuente-base);
 }
 
 h1,
