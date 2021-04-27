@@ -1,5 +1,5 @@
+@import "globales.less";
 /* Intros*/
-
 .intro {
   width: 134rem;
   height: 65rem;
@@ -24,6 +24,7 @@
     right: 0;
     text-align: center;
     color: @color-claro;
+    line-height: normal;
   }
   .intro__categoria {
     font-family: @Fuente2;
@@ -52,6 +53,9 @@
     }
     span {
       display: block;
+    }
+    .intro__autor-titulo {
+      color: fade(@color-claro, 50%);
     }
   }
 }

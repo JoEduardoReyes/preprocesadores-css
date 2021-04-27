@@ -1,3 +1,25 @@
+/* globales */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  color: #333;
+  font-size: 1.8rem;
+  line-height: 1.98rem;
+}
+h1,
+h2,
+h3 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 1.8rem;
+}
 /* Intros*/
 .intro {
   width: 134rem;
@@ -24,10 +46,12 @@
   right: 0;
   text-align: center;
   color: #fff;
+  line-height: normal;
 }
 .intro .intro__categoria {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
 }
 .intro .intro__titulo {
   font-family: "Oswald", sans-serif;
@@ -52,4 +76,7 @@
 }
 .intro .intro__autor span {
   display: block;
+}
+.intro .intro__autor .intro__autor-titulo {
+  color: rgba(255, 255, 255, 0.5);
 }

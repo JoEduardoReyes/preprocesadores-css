@@ -1,4 +1,5 @@
 /* articulos */
+@import "globales";
 
 .articulo--principal {
   width: 66rem;
@@ -10,5 +11,9 @@
   }
   h3 {
     color: @color-secundario;
+  }
+  .articulo--principal__intro {
+    font-size: @fuente-base + (@fuente-base * 1.08);
+    line-height: normal;
   }
 }
