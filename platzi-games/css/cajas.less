@@ -1,0 +1,28 @@
+/* cajas */
+
+@import "./globales.less";
+
+.contenedor--cajas {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.caja {
+  max-width: 430px;
+  .sombra-caja;
+  .caja__contenido {
+    padding: 25px;
+    background-color: @color-claro;
+  }
+  span {
+    color: @color-secundario;
+    .oswal;
+  }
+  a {
+    text-decoration: none;
+    color: @color-variacion;
+    .oswal;
+  }
+}
