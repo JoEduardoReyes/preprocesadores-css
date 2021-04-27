@@ -1,6 +1,6 @@
 /* globales */
 .sombra-caja {
-  box-shadow: 0px 5px 15px 0px rgba(51, 51, 51, 0.5);
+  box-shadow: 0px 5px 15px 0px #333333;
 }
 .oswal {
   font-family: "Oswald", sans-serif;
@@ -16,9 +16,11 @@ html {
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
-  color: #333;
+  color: #fff;
   font-size: 1.8rem;
   line-height: 1.98rem;
+  background-color: #333;
+  padding-block-end: 50px;
 }
 h1,
 h2,
@@ -36,7 +38,7 @@ h3 {
   padding: 1rem;
   margin: 0 auto;
   position: relative;
-  box-shadow: 0px 5px 15px 0px rgba(51, 51, 51, 0.5);
+  box-shadow: 0px 5px 15px 0px #333333;
 }
 .intro .intro__imagen {
   width: 132rem;
@@ -46,6 +48,7 @@ h3 {
   width: 100%;
   height: 62.4rem;
   object-fit: cover;
+  border: 5px solid #8841da;
 }
 .intro .intro__contenido {
   width: 50%;
@@ -101,6 +104,7 @@ h3 {
   text-align: center;
   font-size: 5rem;
   line-height: 5.5rem;
+  color: #8841da;
 }
 .articulo--principal h3 {
   color: #8841da;
@@ -118,11 +122,11 @@ h3 {
 }
 .caja {
   max-width: 430px;
-  box-shadow: 0px 5px 15px 0px rgba(51, 51, 51, 0.5);
+  background-color: #8841da;
+  box-shadow: 0px 5px 15px 0px #333333;
 }
 .caja .caja__contenido {
   padding: 25px;
-  background-color: #fff;
 }
 .caja span {
   color: #8841da;
