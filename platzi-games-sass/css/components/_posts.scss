@@ -1,0 +1,25 @@
+/* articulos */
+
+.articulos {
+  width: 40%;
+  padding: 50px 0 0 50px;
+}
+
+.articulo {
+  margin-block-end: 75px;
+  border-block-end: 3px solid $color-secundario;
+  .articulo__categoria {
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: $color-secundario;
+    @include titulos($fuente2);
+  }
+  .articulo__titulo {
+    font-size: 2rem;
+    @include titulos($fuente2);
+  }
+  .articulo__descripcion {
+    margin-block-end: 30px;
+    padding-inline-end: 100px;
+  }
+}

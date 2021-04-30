@@ -25,13 +25,14 @@ html {
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 main {
   display: flex;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  max-height: auto;
 }
 
 /* perfiles */
@@ -65,7 +66,7 @@ main {
   width: 100px;
   height: 40px;
   margin: 15px auto;
-  padding-block-start: 15px;
+  padding-block-start: 5px;
   border-radius: 20px;
   text-decoration: none;
   text-align: center;
@@ -165,4 +166,31 @@ main {
 }
 .galeria img {
   border-radius: 10px;
+}
+
+/* articulos */
+.articulos {
+  width: 40%;
+  padding: 50px 0 0 50px;
+}
+
+.articulo {
+  margin-block-end: 75px;
+  border-block-end: 3px solid #8841da;
+}
+.articulo .articulo__categoria {
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #8841da;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+.articulo .articulo__titulo {
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+.articulo .articulo__descripcion {
+  margin-block-end: 30px;
+  padding-inline-end: 100px;
 }
