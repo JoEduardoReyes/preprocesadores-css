@@ -9,7 +9,7 @@ $color-variacion: #3f579a;
 
 @mixin caja {
   border-radius: 20px;
-  box-shadow: 0px 20px 33px 0px rgba($color-primario, 0.5);
+  box-shadow: 0px 20px 33px 0px rgba($color-primario, 0.3);
   color: $color-primario;
   background-color: $color-claro;
 }
