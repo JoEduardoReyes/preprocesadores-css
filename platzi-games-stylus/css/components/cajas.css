@@ -1,0 +1,22 @@
+/* cajas */
+.contenido {
+  margin-block-end: 40px;
+  justify-content: space-evenly;
+}
+.caja {
+  max-width: 430px;
+}
+.caja .caja__contenido {
+  padding: 20px;
+  background-color: color-claro;
+}
+.caja .caja__contenido span {
+  text-transform: uppercase;
+  color: color-secundario;
+  font-family: Fuente2;
+}
+.caja .caja__contenido h3 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-family: Fuente2;
+}
