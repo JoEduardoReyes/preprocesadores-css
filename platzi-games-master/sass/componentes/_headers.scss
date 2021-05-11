@@ -7,11 +7,33 @@
   border-block-end: 1px solid #ebebeb;
 }
 
-.nav--heade {
+.nav--header ul {
   display: flex;
   padding-block-start: 35px;
   li {
     list-style: none;
     margin-inline-end: 50px;
+  }
+  a {
+    color: $color-variacion;
+    @include titulos($Fuente2);
+  }
+}
+
+.header__busqueda {
+  display: flex;
+  margin-inline-start: auto;
+  padding-block-start: 35px;
+  &:hover {
+    text-decoration: none;
+  }
+  i {
+    font-size: 20px;
+    margin-inline-end: 10px;
+    color: $color-secundario;
+  }
+  span {
+    color: $color-variacion;
+    @include titulos($Fuente2);
   }
 }

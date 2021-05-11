@@ -892,15 +892,46 @@ main {
           border-block-end: 1px solid #ebebeb;
 }
 
-.nav--heade {
+.nav--header ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-padding-before: 35px;
           padding-block-start: 35px;
 }
-.nav--heade li {
+.nav--header ul li {
   list-style: none;
   -webkit-margin-end: 50px;
           margin-inline-end: 50px;
+}
+.nav--header ul a {
+  color: #3f579a;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.header__busqueda {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-margin-start: auto;
+          margin-inline-start: auto;
+  -webkit-padding-before: 35px;
+          padding-block-start: 35px;
+}
+.header__busqueda:hover {
+  text-decoration: none;
+}
+.header__busqueda i {
+  font-size: 20px;
+  -webkit-margin-end: 10px;
+          margin-inline-end: 10px;
+  color: #8841DA;
+}
+.header__busqueda span {
+  color: #3f579a;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
 }
