@@ -16,7 +16,7 @@ $color-claro: #fff;
 //Mixins
 @mixin caja {
   color: $color-primario;
-  box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
 }
 
 @mixin titulos($fuente) {

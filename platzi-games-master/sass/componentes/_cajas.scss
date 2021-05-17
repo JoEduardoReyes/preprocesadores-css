@@ -40,6 +40,7 @@
   overflow: hidden;
   background-color: $color-primario;
   cursor: pointer;
+  margin-block: 10px;
   @include font-size(16px);
   img {
     display: block;
@@ -65,12 +66,23 @@
     h3 {
       color: $color-claro;
     }
+    h2 {
+      @include font-size(16px);
+      text-align: start;
+      width: 50%;
+      @include media(desktop-s) {
+        width: auto;
+        @include font-size(20px);
+        text-align: center;
+      }
+    }
   }
   &__categoria {
     display: block;
     width: auto;
     max-width: 100px;
     margin: auto;
+    margin-inline-start: 0;
     text-align: center;
     background-color: $color-secundario;
     color: $color-claro;
@@ -87,21 +99,31 @@
   h2 {
     @include titulos($Fuente2);
     @include font-size(16px);
+    text-align: center;
+    width: 100%;
   }
   @include media(desktop-s) {
     max-width: 1000px;
     height: 550px;
     h2 {
       @include font-size(50px);
+      width: auto;
     }
     .caja--con-fondo__contenido {
       padding-top: 200px;
+    }
+  }
+  @include caja;
+  .caja--con-fondo {
+    &__categoria {
+      margin: auto;
     }
   }
 }
 
 .caja--mediana {
   height: 200px;
+  @include caja;
   @include media(desktop-s) {
     max-width: 600px;
     height: 250px;
@@ -110,6 +132,7 @@
 
 .caja--pequena {
   height: 200px;
+  @include caja;
   @include media(desktop-s) {
     max-width: 300px;
     height: 250px;

@@ -1,5 +1,9 @@
 .banner--homepage {
-  max-width: 300px;
+  width: 100%;
+  @include caja;
+  @include media(desktop-s) {
+    max-width: 300px;
+  }
   padding: 50px;
   margin-block-end: 20px;
   background-color: $color-secundario;

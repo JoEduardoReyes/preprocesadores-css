@@ -1,5 +1,8 @@
 .sidebar--listado {
-  max-width: 300px;
+  width: 100%;
+  @include media(desktop-s) {
+    max-width: 300px;
+  }
   padding: 20px;
   @include caja();
   h3 {
