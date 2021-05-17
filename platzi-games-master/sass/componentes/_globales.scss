@@ -54,6 +54,7 @@ $color-claro: #fff;
 }
 
 body {
+  min-width: 375px;
   margin: 0;
   background-color: #f9fafc;
   color: $color-primario;
