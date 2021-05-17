@@ -1,37 +1,56 @@
 .footer--principal {
   display: flex;
-  height: 160px;
+  flex-direction: column;
   margin-block-start: 30px;
   padding: 0 20px 20px 20px;
   background-color: $color-primario;
+  @include media(desktop-s) {
+    flex-direction: row;
+    height: 160px;
+  }
 }
 
 .nav--footer ul {
   display: flex;
+  flex-direction: column;
   padding-block-start: 35px;
+  @include font-size(14px);
   li {
     list-style: none;
     margin-inline-end: 50px;
     a {
-      color: $color-claro;
+      color: get-opacity($color-claro, 0.7);
       @include titulos($Fuente2);
+    }
+  }
+  @include media(desktop-s) {
+    flex-direction: row;
+    @include font-size(18px);
+    a {
+      color: $color-claro;
     }
   }
 }
 
 .nav--social {
-  margin-inline-start: auto;
+  @include font-size(20px);
   ul {
     display: flex;
     padding-block-start: 35px;
     li {
       list-style: none;
-      margin-inline-end: 50px;
+      margin-inline-end: 10px;
       color: $color-claro;
       a {
         color: $color-claro;
         @include titulos($Fuente2);
       }
+      @include media(desktop-s) {
+        margin-inline-end: 50px;
+      }
     }
+  }
+  @include media(desktop-s) {
+    margin-inline-start: auto;
   }
 }
