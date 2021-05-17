@@ -5,7 +5,8 @@
   @include display-grid;
   @include grid-template-columns(1fr grid-repeat(3));
   @include grid-template-rows(1fr grid-repeat(3));
-  gap: 20px;
+  column-gap: 20px;
+  place-items: stretch;
 }
 
 .caja--grande {

@@ -480,9 +480,12 @@ h3 {
 
 body {
   margin: 0;
-  background-color: #F9FAFC;
+  background-color: #f9fafc;
   color: #333333;
   font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
 }
 
 main {
@@ -496,8 +499,8 @@ main {
 .perfil {
   width: 50%;
   padding-top: 50px;
-  color: #FFF;
-  background-color: #8841DA;
+  color: #fff;
+  background-color: #8841da;
 }
 .perfil__avatar {
   display: block;
@@ -528,7 +531,7 @@ main {
   border-radius: 20px;
   text-decoration: none;
   text-align: center;
-  color: #FFF;
+  color: #fff;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -551,7 +554,7 @@ main {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   border-radius: 20px;
-  background-color: #FFF;
+  background-color: #fff;
   color: #333333;
   -webkit-box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
@@ -602,7 +605,7 @@ main {
   margin: 30px auto 0 auto;
   padding: 20px 0 0 50px;
   border-radius: 20px;
-  background-color: #FFF;
+  background-color: #fff;
   color: #333333;
   -webkit-box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
@@ -638,7 +641,7 @@ main {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   border-radius: 20px;
-  background-color: #FFF;
+  background-color: #fff;
   color: #333333;
   -webkit-box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
@@ -671,12 +674,12 @@ main {
 
 .articulo {
   margin-bottom: 75px;
-  border-bottom: 3px solid #8841DA;
+  border-bottom: 3px solid #8841da;
 }
 .articulo__categoria {
   font-weight: 500;
   font-size: 14px;
-  color: #8841DA;
+  color: #8841da;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -703,7 +706,7 @@ main {
   font-size: 25px;
 }
 .articulo--principal h3 {
-  color: #8841DA;
+  color: #8841da;
 }
 .articulo--principal h2 {
   margin: 40px 0 40px 0;
@@ -738,7 +741,7 @@ main {
   left: 0;
   right: 0;
   text-align: center;
-  color: #FFF;
+  color: #fff;
 }
 .intro__categoria {
   color: rgba(255, 255, 255, 0.5);
@@ -756,7 +759,7 @@ main {
   top: 400px;
   left: 0;
   right: 0;
-  color: #FFF;
+  color: #fff;
 }
 .intro__autor img {
   width: 60px;
@@ -797,10 +800,10 @@ main {
 }
 .caja__contenido {
   padding: 25px;
-  background-color: #FFF;
+  background-color: #fff;
 }
 .caja__categoria {
-  color: #8841DA;
+  color: #8841da;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -848,13 +851,13 @@ main {
   padding: 20px;
   position: absolute;
   text-align: center;
-  color: #FFF;
+  color: #fff;
 }
 .caja--con-fondo__contenido p {
-  color: #FFF;
+  color: #fff;
 }
 .caja--con-fondo__contenido h3 {
-  color: #FFF;
+  color: #fff;
 }
 .caja--con-fondo__categoria {
   display: block;
@@ -862,11 +865,37 @@ main {
   max-width: 100px;
   margin: auto;
   text-align: center;
-  background-color: #8841DA;
-  color: #FFF;
+  background-color: #8841da;
+  color: #fff;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.caja--grande {
+  max-width: 1000px;
+  height: 550px;
+}
+.caja--grande h2 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  font-size: 3.125rem;
+  line-height: 4.6875rem;
+}
+.caja--grande .caja--con-fondo__contenido {
+  padding-top: 200px;
+}
+
+.caja--mediana {
+  max-width: 600px;
+  height: 250px;
+}
+
+.caja--pequena {
+  max-width: 300px;
+  height: 250px;
 }
 
 .buscador {
@@ -969,7 +998,7 @@ main {
   font-size: 20px;
   -webkit-margin-end: 10px;
           margin-inline-end: 10px;
-  color: #8841DA;
+  color: #8841da;
 }
 .header__busqueda span {
   color: #3f579a;
@@ -1002,7 +1031,7 @@ main {
           margin-inline-end: 50px;
 }
 .nav--footer ul li a {
-  color: #FFF;
+  color: #fff;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -1023,10 +1052,10 @@ main {
   list-style: none;
   -webkit-margin-end: 50px;
           margin-inline-end: 50px;
-  color: #FFF;
+  color: #fff;
 }
 .nav--social ul li a {
-  color: #FFF;
+  color: #fff;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -1042,7 +1071,10 @@ main {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 20px;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+  place-items: stretch;
 }
 
 .caja--grande {
