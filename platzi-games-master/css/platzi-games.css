@@ -561,6 +561,7 @@ main {
   color: #333333;
   -webkit-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
           box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
 .estadistica--perfil h3 {
   font-weight: 600;
@@ -638,6 +639,7 @@ main {
   color: #333333;
   -webkit-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
           box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
 .ubicacion--perfil i {
   display: block;
@@ -674,6 +676,7 @@ main {
   color: #333333;
   -webkit-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
           box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
 .galeria__foto-principal {
   float: left;
@@ -751,6 +754,7 @@ main {
   color: #333333;
   -webkit-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
           box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
 .intro__imagen {
   width: 1320px;
@@ -826,6 +830,7 @@ main {
   color: #333333;
   -webkit-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
           box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
 .caja__contenido {
   padding: 25px;
@@ -937,6 +942,16 @@ main {
     line-height: 1.6875rem;
   }
 }
+.caja--con-fondo__stats ul li i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-margin-end: 5px;
+          margin-inline-end: 5px;
+}
 
 .caja--grande {
   height: 200px;
@@ -944,6 +959,7 @@ main {
   color: #333333;
   -webkit-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
           box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
 .caja--grande h2 {
   font-family: "Oswald", sans-serif;
@@ -979,6 +995,7 @@ main {
   color: #333333;
   -webkit-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
           box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
 @media only screen and (min-width: 992px) {
   .caja--mediana {
@@ -992,6 +1009,7 @@ main {
   color: #333333;
   -webkit-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
           box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
 @media only screen and (min-width: 992px) {
   .caja--pequena {
@@ -1040,6 +1058,7 @@ main {
   color: #333333;
   -webkit-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
           box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
 .encabezado--con-filtros span {
   font-family: "Oswald", sans-serif;
@@ -1345,6 +1364,7 @@ main {
   color: #333333;
   -webkit-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
           box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
 @media only screen and (min-width: 992px) {
   .sidebar--listado {
@@ -1388,6 +1408,7 @@ main {
   color: #333333;
   -webkit-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
           box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
   padding: 50px;
   -webkit-margin-after: 20px;
           margin-block-end: 20px;

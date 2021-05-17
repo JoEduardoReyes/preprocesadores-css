@@ -91,6 +91,11 @@
       @include font-size(18px);
     }
   }
+  &__stats ul li i {
+    display: flex;
+    align-items: center;
+    margin-inline-end: 5px;
+  }
 }
 
 .caja--grande {
